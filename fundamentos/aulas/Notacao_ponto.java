@@ -1,6 +1,6 @@
 /*
  * AUTOR: Lucas Emanuel Oliveira de Carvalho
- * PROJETO: Criar um "sistema" que armazene os dados de um funcion·rios
+ * PROJETO: Analisar o uso da nota√ß√£o "."
  */
 
 package aulas;
@@ -9,9 +9,9 @@ public class Notacao_ponto {
 
 	public static void main(String[] args) {
 		
-		// Formas de usar a notaÁ„o "X.something()"
+		// Formas de usar a nota√ß√£o "X.something()"
 		
-		// Criar a vari·vel a redefinir 
+		// Criar a vari√°vel a redefinir 
 		String s = "Bom dia!";
 		s = s.toUpperCase(); // Altera a string toda.
 		
@@ -21,7 +21,7 @@ public class Notacao_ponto {
 		s = s.replace("!", "!!!");
 		System.out.println(s);
 		
-		// Usar direto na definiÁ„o da vari·vel
+		// Usar direto na defini√ß√£o da vari√°vel
 		String x = "Bom Dia!!".toLowerCase();
 		System.out.println(x);
 
@@ -29,13 +29,13 @@ public class Notacao_ponto {
 		String w = "Bom dia";
 		System.out.println(w.toUpperCase());
 		
-		// Usar multiplos mÈtodos em multiplas linhas
+		// Usar multiplos m√©todos em multiplas linhas
 		String y = "Bom dia!".replace("!", ", Lucas!!").toUpperCase()
 				.concat(".")
-				.replace(".", ". Vamo l·!!!");
+				.replace(".", ". Vamo l√°!!!");
 		System.out.println(y);
 		
-		// Tipos primitivos n„o tem o operador "."
+		// Tipos primitivos n√£o tem o operador "."
 	}
 
 }
